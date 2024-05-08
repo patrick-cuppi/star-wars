@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Press+Start+2P&family=Stardos+Stencil:wght@400;700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +19,10 @@ body.dark {
     color: #fafafa;
 }
 
+body.dark h1 {
+    color:#f1c40f;
+}
+
 .dark-light-theme {
     display: flex;
     align-items: baseline;
@@ -26,6 +32,10 @@ body.dark {
 
 .title {
     text-align: center;
+    padding-bottom: 5rem;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .checkbox {
@@ -70,3 +80,69 @@ body.dark {
 .fa-sun {
     color: #f1c40f;
 }
+
+.background-banner {
+    display: flex;
+    position: relative;
+}
+
+.image-banner {
+    max-width: 100%;
+    max-height: 70%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.vader-fixed {
+    display: flex;    
+}
+
+.darth-vader {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+}
+
+@media only screen
+and (min-width: 375px)
+and (max-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait){}
+
+/* .codystar-light {
+    font-family: "Codystar", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .codystar-regular {
+    font-family: "Codystar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ --------------------------------------------------------
+  .stardos-stencil-regular {
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .stardos-stencil-bold {
+    font-family: "Stardos Stencil", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+ ---------------------------------------------------------
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 800
+
+.ubuntu-sans-<uniquifier> {
+  font-family: "Ubuntu Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
