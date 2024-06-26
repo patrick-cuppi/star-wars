@@ -103,6 +103,7 @@ body.dark h1 {
     z-index: 1;
     right: 0;
     bottom: 0;
+    filter: drop-shadow(1px 1px 20px red)
 }
 
 @media only screen
